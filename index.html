@@ -5,27 +5,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marie Dubois - Étudiante MIAGE</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+<!-- Navigation -->
 <nav class="navbar">
     <div class="nav-container">
-        <div class="logo">Marie Dubois</div>
+        <div class="logo">
+            <i class="fas fa-code"></i>
+            Marie Dubois
+        </div>
         <ul class="nav-links">
-            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html" class="active">Accueil</a></li>
             <li><a href="projets.html">Projets</a></li>
             <li><a href="competences.html">Compétences</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
 </nav>
 
+<!-- Hero Section -->
 <section class="hero">
     <div class="hero-content">
-        <h1>Étudiante en MIAGE</h1>
-        <p>Développeuse full-stack en formation • Recherche alternance</p>
-        <a href="projets.html" class="btn">Voir mes projets</a>
+        <div class="hero-text">
+            <h1>Étudiante en <span class="highlight">MIAGE</span></h1>
+            <p class="hero-subtitle">Développeuse full-stack en formation • Recherche alternance</p>
+            <p class="hero-description">
+                Passionnée par le développement d'applications web et l'analyse de données.
+                Je combine compétences techniques et vision métier pour créer des solutions innovantes.
+            </p>
+            <div class="hero-buttons">
+                <a href="projets.html" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    Voir mes projets
+                </a>
+                <a href="contact.html" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Me contacter
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-card">
+                <div class="profile-image">
+                    <!-- Remplace par ta photo -->
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="profile-info">
+                    <h3>Marie Dubois</h3>
+                    <p>MIAGE Nantes</p>
+                    <p>2ème année</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
+<!-- Section Présentation -->
+<section class="presentation">
+    <div class="container">
+        <h2>Pourquoi moi ?</h2>
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Double Compétence</h3>
+                <p>Informatique + Gestion, une valeur ajoutée unique pour vos projets</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-database"></i>
+                <h3>Expertise Technique</h3>
+                <p>Développement, bases de données, analyse et modélisation</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-project-diagram"></i>
+                <h3>Projets Concrets</h3>
+                <p>Expérience sur des cas réels durant mon parcours MIAGE</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Projets Récents -->
+<section class="recent-projects">
+    <div class="container">
+        <h2>Projets Récents</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Gestion de Bibliothèque</h3>
+                <p>Application web complète avec Java et MySQL</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                </div>
+                <a href="projets.html#bibliotheque" class="project-link">Voir le projet →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h3>Analyse de Données</h3>
+                <p>Dashboard interactif pour données commerciales</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">Matplotlib</span>
+                </div>
+                <a href="projets.html#analyse" class="project-link">Voir le projet →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>Site E-commerce</h3>
+                <p>Plateforme de vente en ligne avec PHP</p>
+                <div class="project-tech">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">SQL</span>
+                </div>
+                <a href="projets.html#ecommerce" class="project-link">Voir le projet →</a>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="projets.html" class="btn btn-outline">
+                <i class="fas fa-eye"></i>
+                Voir tous mes projets
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Marie Dubois</h3>
+                <p>Étudiante en MIAGE - Développeuse full-stack</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/tonusername" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/tonusername" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:ton.email@email.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Marie Dubois. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
 
 <script src="js/script.js"></script>
 </body>
