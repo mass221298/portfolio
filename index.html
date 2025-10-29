@@ -15,8 +15,9 @@
   <header class="navbar" aria-label="Navigation principale">
     <div class="container nav-container">
       <a class="logo" href="index.html" aria-label="Accueil">
-        <i class="fa-solid fa-code"></i> <span>Massylla<span class="accent">Ndiaye</span></span>
-      </a>
+  <img src="images/mon-logo.jpg" alt="Logo de [Ndiaye]" class="logo-img">
+  <span>Massylla Ndiaye</span>
+</a>
 
       <nav class="nav" role="navigation">
         <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
@@ -36,49 +37,62 @@
 
   <!-- Hero -->
   <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-text">
-        <h1>Étudiante en <span class="highlight" id="typing">MIAGE</span></h1>
-        <p class="subtitle">Développeuse full-stack en formation • Recherche alternance</p>
-        <p class="lead">
-          Je conçois des applications web performantes en alliant <strong>exigence technique</strong> et
-          <strong>vision métier</strong>. Curieuse, rigoureuse, orientée produit.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="projets.html"><i class="fa-solid fa-rocket"></i> Voir mes projets</a>
-          <a class="btn btn-outline" href="contact.html"><i class="fa-solid fa-envelope"></i> Me contacter</a>
-        </div>
-        <ul class="hero-meta">
-          <li><i class="fa-solid fa-location-dot"></i> Nantes, France</li>
-          <li><i class="fa-solid fa-graduation-cap"></i> MIAGE — 2ᵉ année</li>
-          <li><i class="fa-solid fa-briefcase"></i> Alternance (rythme 3/1)</li>
-        </ul>
+  <div class="container hero-grid">
+
+    <!-- ===== Texte principal ===== -->
+    <div class="hero-text">
+      <h1>Bonjour, je suis <span class="highlight">[Ton Prénom Nom]</span></h1>
+      <p class="subtitle">Développeur Web • Étudiant MIAGE • Passionné de Technologie</p>
+      <p class="lead">
+        Je crée des applications modernes et performantes en alliant
+        <strong>technologie</strong> et <strong>créativité</strong>.
+      </p>
+
+      <div class="hero-actions">
+        <a href="projets.html" class="btn btn-primary">
+          <i class="fa-solid fa-rocket"></i> Voir mes projets
+        </a>
+        <a href="contact.html" class="btn btn-outline">
+          <i class="fa-solid fa-envelope"></i> Me contacter
+        </a>
       </div>
 
-      <div class="hero-card">
-        <div class="profile">
-          <div class="profile-img" aria-hidden="true"><i class="fa-solid fa-user-graduate"></i></div>
-          <h3>Massylla Ndiaye</h3>
-          <p>Développeuse Full-Stack Junior</p>
-          <div class="social">
-            <a href="https://github.com/tonusername" target="_blank" rel="noreferrer" aria-label="GitHub">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://linkedin.com/in/tonusername" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="mailto:marie.dubois@email.com" aria-label="Email">
-              <i class="fa-solid fa-envelope"></i>
-            </a>
-          </div>
+      <ul class="hero-meta">
+        <li><i class="fa-solid fa-location-dot"></i> Nantes, France</li>
+        <li><i class="fa-solid fa-briefcase"></i> Alternance en développement</li>
+      </ul>
+    </div>
+
+    <!-- ===== Carte profil ===== -->
+    <div class="hero-card">
+      <div class="profile">
+        <div class="profile-img">
+          <img src="images/moi.jpg" alt="Photo de [Ton Prénom Nom]">
+        </div>
+        <h3>[Ton Prénom Nom]</h3>
+        <p>Développeur Full-Stack Junior</p>
+        <div class="social">
+          <a href="https://github.com/tonusername" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/tonusername" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="mailto:ton.email@exemple.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
         </div>
       </div>
     </div>
 
-    <div class="scroll-indicator" aria-hidden="true">
-      <span>Scroll</span><i class="fa-solid fa-angles-down"></i>
-    </div>
-  </section>
+  </div>
+
+  <!-- Indicateur de scroll -->
+  <div class="scroll-indicator" aria-hidden="true">
+    <span>Scroll</span>
+    <i class="fa-solid fa-angles-down"></i>
+  </div>
+</section>
 
   <!-- Pourquoi moi -->
   <section class="section" id="about">
