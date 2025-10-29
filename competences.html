@@ -1,250 +1,157 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compétences - Marie Dubois</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Compétences — Massylla Ndiaye</title>
+  <meta name="description" content="Compétences techniques et métiers de Marie Dubois (MIAGE).">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
-<body>
-<nav class="navbar">
-    <div class="nav-container">
-        <div class="logo">
-            <i class="fas fa-code"></i>
-            Marie Dubois
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="projets.html">Projets</a></li>
-            <li><a href="competences.html" class="active">Compétences</a></li>
-            <li><a href="contact.html">Contact</a></li>
+<body data-page="skills">
+  <header class="navbar">
+    <div class="container nav-container">
+      <a class="logo" href="index.html"><i class="fa-solid fa-code"></i> <span>Massylla<span class="accent">Ndiaye</span></span></a>
+      <nav class="nav">
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="nav-menu" class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-divider"></li>
+          <li><button class="btn-icon theme-toggle" aria-label="Basculer mode sombre"><i class="fa-solid fa-moon"></i></button></li>
         </ul>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+      </nav>
     </div>
-</nav>
+  </header>
 
-<section class="page-header">
+  <section class="page-header">
     <div class="container">
-        <h1>Mes Compétences</h1>
-        <p>Un profil MIAGE complet alliant technique et gestion</p>
+      <h1>Compétences</h1>
+      <p>Un profil MIAGE complet alliant <strong>technique</strong> et <strong>gestion</strong>.</p>
     </div>
-</section>
+  </section>
 
-<section class="skills-section">
-    <div class="container">
-        <!-- Compétences Techniques -->
-        <div class="skills-category">
-            <h2>
-                <i class="fas fa-laptop-code"></i>
-                Compétences Techniques
-            </h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-header">
-                        <i class="fab fa-java"></i>
-                        <h3>Développement Back-end</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span>Java / Spring Boot</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>PHP / Symfony</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Python / Django</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 70%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <section class="section">
+    <div class="container grid-2 gap-xl reveal">
+      <!-- Techniques -->
+      <div>
+        <h2 class="section-subtitle"><i class="fa-solid fa-laptop-code"></i> Techniques</h2>
+        <div class="grid-2">
+          <article class="card skill">
+            <h3>Back-end</h3>
+            <ul class="skill-bars">
+              <li><span>Java / Spring Boot</span><div class="bar"><b style="width:85%"></b></div></li>
+              <li><span>PHP / Symfony</span><div class="bar"><b style="width:75%"></b></div></li>
+              <li><span>Python / Django</span><div class="bar"><b style="width:70%"></b></div></li>
+            </ul>
+          </article>
 
-                <div class="skill-card">
-                    <div class="skill-header">
-                        <i class="fas fa-database"></i>
-                        <h3>Bases de Données</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span>MySQL / PostgreSQL</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Modélisation Merise</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>SQL Avancé</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 80%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <article class="card skill">
+            <h3>Bases de données</h3>
+            <ul class="skill-bars">
+              <li><span>MySQL / PostgreSQL</span><div class="bar"><b style="width:90%"></b></div></li>
+              <li><span>Modélisation (Merise)</span><div class="bar"><b style="width:85%"></b></div></li>
+              <li><span>SQL avancé</span><div class="bar"><b style="width:80%"></b></div></li>
+            </ul>
+          </article>
 
-                <div class="skill-card">
-                    <div class="skill-header">
-                        <i class="fas fa-code"></i>
-                        <h3>Développement Front-end</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span>HTML/CSS</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>JavaScript</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>React</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 65%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <article class="card skill">
+            <h3>Front-end</h3>
+            <ul class="skill-bars">
+              <li><span>HTML / CSS</span><div class="bar"><b style="width:95%"></b></div></li>
+              <li><span>JavaScript</span><div class="bar"><b style="width:80%"></b></div></li>
+              <li><span>React</span><div class="bar"><b style="width:65%"></b></div></li>
+            </ul>
+          </article>
 
-                <div class="skill-card">
-                    <div class="skill-header">
-                        <i class="fas fa-tools"></i>
-                        <h3>Outils & Méthodes</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span>Git / GitHub</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Méthodes Agiles</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Docker</span>
-                            <div class="skill-level">
-                                <div class="skill-bar" style="width: 60%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <article class="card skill">
+            <h3>Outils & Méthodes</h3>
+            <ul class="skill-bars">
+              <li><span>Git / GitHub</span><div class="bar"><b style="width:85%"></b></div></li>
+              <li><span>Agile (Scrum)</span><div class="bar"><b style="width:75%"></b></div></li>
+              <li><span>Docker</span><div class="bar"><b style="width:60%"></b></div></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <!-- Métier + Parcours -->
+      <div>
+        <h2 class="section-subtitle"><i class="fa-solid fa-briefcase"></i> Métier</h2>
+        <div class="grid-2">
+          <article class="card mini">
+            <i class="fa-solid fa-diagram-project icon"></i>
+            <h4>Gestion de projet</h4>
+            <p>Planification, suivi, coordination d’équipes.</p>
+          </article>
+          <article class="card mini">
+            <i class="fa-solid fa-chart-line icon"></i>
+            <h4>Analyse business</h4>
+            <p>Recueil des besoins, specs fonctionnelles.</p>
+          </article>
+          <article class="card mini">
+            <i class="fa-solid fa-users icon"></i>
+            <h4>Management</h4>
+            <p>Animation d’équipes et rituels agiles.</p>
+          </article>
+          <article class="card mini">
+            <i class="fa-solid fa-person-chalkboard icon"></i>
+            <h4>Conduite du changement</h4>
+            <p>Formation & accompagnement utilisateurs.</p>
+          </article>
         </div>
 
-        <!-- Compétences Métier -->
-        <div class="skills-category">
-            <h2>
-                <i class="fas fa-briefcase"></i>
-                Compétences Métier
-            </h2>
-            <div class="business-skills">
-                <div class="business-skill-card">
-                    <i class="fas fa-project-diagram"></i>
-                    <h3>Gestion de Projet</h3>
-                    <p>Planification, suivi et coordination de projets informatiques</p>
-                </div>
-                <div class="business-skill-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Analyse Business</h3>
-                    <p>Analyse des besoins métier et spécifications fonctionnelles</p>
-                </div>
-                <div class="business-skill-card">
-                    <i class="fas fa-users"></i>
-                    <h3>Management d'Équipe</h3>
-                    <p>Animation d'équipes projet et coordination des travaux</p>
-                </div>
-                <div class="business-skill-card">
-                    <i class="fas fa-file-alt"></i>
-                    <h3>Conduite du Changement</h3>
-                    <p>Accompagnement des utilisateurs et formation</p>
-                </div>
+        <h2 class="section-subtitle mt-lg"><i class="fa-solid fa-graduation-cap"></i> Parcours</h2>
+        <ol class="timeline">
+          <li>
+            <div class="t-bullet"></div>
+            <div class="t-content">
+              <h4>Master MIAGE — Université de Nantes</h4>
+              <span class="muted">2023 — présent</span>
+              <p>Spécialisation dev d’applications & gestion de projet.</p>
             </div>
-        </div>
-
-        <!-- Parcours -->
-        <div class="skills-category">
-            <h2>
-                <i class="fas fa-graduation-cap"></i>
-                Parcours & Formation
-            </h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2023 - Présent</div>
-                    <div class="timeline-content">
-                        <h3>Master MIAGE</h3>
-                        <p>Université de Nantes</p>
-                        <p>Spécialisation en développement d'applications et management de projet</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2021 - 2023</div>
-                    <div class="timeline-content">
-                        <h3>Licence Informatique</h3>
-                        <p>Université de Nantes</p>
-                        <p>Fondamentaux en algorithmique, bases de données et développement web</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2021</div>
-                    <div class="timeline-content">
-                        <h3>Baccalauréat Scientifique</h3>
-                        <p>Lycée Gabriel Guist'hau, Nantes</p>
-                        <p>Spécialité Mathématiques et Sciences de l'Ingénieur</p>
-                    </div>
-                </div>
+          </li>
+          <li>
+            <div class="t-bullet"></div>
+            <div class="t-content">
+              <h4>Licence Informatique — Université de Nantes</h4>
+              <span class="muted">2021 — 2023</span>
+              <p>Algo, BDD, web, POO.</p>
             </div>
-        </div>
+          </li>
+          <li>
+            <div class="t-bullet"></div>
+            <div class="t-content">
+              <h4>Baccalauréat Scientifique — Lycée Guist’hau</h4>
+              <span class="muted">2021</span>
+              <p>Spécialités Maths & SI.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
     </div>
-</section>
+  </section>
 
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-info">
-                <h3>Marie Dubois</h3>
-                <p>Étudiante en MIAGE - Développeuse full-stack</p>
-            </div>
-            <div class="footer-links">
-                <a href="https://github.com/tonusername" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://linkedin.com/in/tonusername" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="mailto:ton.email@email.com">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Marie Dubois. Tous droits réservés.</p>
-        </div>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Marie <span class="accent">Dubois</span></h3>
+        <p>Étudiante MIAGE — Développeuse full-stack</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/tonusername" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/tonusername" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:marie.dubois@email.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p class="copy">© 2025 Marie Dubois. Tous droits réservés.</p>
     </div>
-</footer>
+  </footer>
 
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

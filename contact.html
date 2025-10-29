@@ -1,181 +1,137 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Marie Dubois</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Massylla Ndiaye</title>
+  <meta name="description" content="Contactez Marie Dubois pour une alternance ou un projet.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
-<body>
-<nav class="navbar">
-    <div class="nav-container">
-        <div class="logo">
-            <i class="fas fa-code"></i>
-            Marie Dubois
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="projets.html">Projets</a></li>
-            <li><a href="competences.html">Compétences</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
+<body data-page="contact">
+  <header class="navbar">
+    <div class="container nav-container">
+      <a class="logo" href="index.html"><i class="fa-solid fa-code"></i> <span>Massylla<span class="accent">Ndiaye</span></span></a>
+      <nav class="nav">
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="nav-menu" class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-divider"></li>
+          <li><button class="btn-icon theme-toggle" aria-label="Basculer mode sombre"><i class="fa-solid fa-moon"></i></button></li>
         </ul>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+      </nav>
     </div>
-</nav>
+  </header>
 
-<section class="page-header">
+  <section class="page-header">
     <div class="container">
-        <h1>Contact</h1>
-        <p>Disponible pour une alternance à partir de septembre 2024</p>
+      <h1>Contact</h1>
+      <p>Disponible pour une alternance à partir de septembre 2025.</p>
     </div>
-</section>
+  </section>
 
-<section class="contact-section">
-    <div class="container">
-        <div class="contact-content">
-            <div class="contact-info">
-                <h2>Travaillons ensemble !</h2>
-                <p class="contact-description">
-                    Je suis actuellement à la recherche d'une alternance en développement web ou data analysis
-                    pour la rentrée 2024. N'hésitez pas à me contacter pour discuter de votre projet.
-                </p>
+  <section class="section">
+    <div class="container grid-2 gap-xl contact-grid reveal">
+      <div>
+        <h2 class="section-subtitle">Travaillons ensemble !</h2>
+        <p class="lead">Je recherche une alternance en développement web ou data pour la rentrée.</p>
 
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p>marie.dubois@email.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3>Téléphone</h3>
-                            <p>+33 6 12 34 56 78</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3>Localisation</h3>
-                            <p>Nantes, France</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-graduation-cap"></i>
-                        <div>
-                            <h3>Disponibilité</h3>
-                            <p>Alternance - Rythme 3 semaines entreprise / 1 semaine cours</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="social-links">
-                    <a href="https://github.com/tonusername" class="social-link" target="_blank">
-                        <i class="fab fa-github"></i>
-                        GitHub
-                    </a>
-                    <a href="https://linkedin.com/in/tonusername" class="social-link" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                        LinkedIn
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fas fa-file-pdf"></i>
-                        CV PDF
-                    </a>
-                </div>
+        <div class="contact-cards">
+          <div class="card contact-item">
+            <i class="fa-solid fa-envelope icon"></i>
+            <div><h4>Email</h4><p><a href="mailto:marie.dubois@email.com">massylandiaye69@email.com</a></p>
             </div>
-
-            <div class="contact-form">
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Nom complet</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="company">Entreprise</label>
-                        <input type="text" id="company" name="company">
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Sujet</label>
-                        <select id="subject" name="subject" required>
-                            <option value="">Sélectionnez un sujet</option>
-                            <option value="alternance">Proposition d'alternance</option>
-                            <option value="stage">Proposition de stage</option>
-                            <option value="projet">Projet collaboratif</option>
-                            <option value="info">Demande d'information</option>
-                            <option value="autre">Autre</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full">
-                        <i class="fas fa-paper-plane"></i>
-                        Envoyer le message
-                    </button>
-                </form>
-            </div>
+          </div>
+          <div class="card contact-item">
+            <i class="fa-solid fa-phone icon"></i>
+            <div><h4>Téléphone</h4><p><a href="tel:+33612345678">+33 6 02 53 88 81</a></p></div>
+          </div>
+          <div class="card contact-item">
+            <i class="fa-solid fa-location-dot icon"></i>
+            <div><h4>Localisation</h4><p>Nancy, France</p></div>
+          </div>
+          <div class="card contact-item">
+            <i class="fa-solid fa-calendar-check icon"></i>
+            <div><h4>Disponibilité</h4><p>Rythme 3 semaines entreprise / 1 semaine cours</p></div>
+          </div>
         </div>
+
+        <div class="social big">
+          <a class="btn btn-outline" href="https://github.com/tonusername" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a class="btn btn-outline" href="https://linkedin.com/in/tonusername" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a class="btn btn-primary" href="#" aria-disabled="true"><i class="fa-solid fa-file-pdf"></i> CV (PDF)</a>
+        </div>
+      </div>
+
+      <form class="card form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input id="name" name="name" type="text" placeholder="Ex. Marie Dubois" required>
+            <small class="error">Merci d’indiquer votre nom.</small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="prenom.nom@mail.com" required>
+            <small class="error">Email invalide.</small>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="company">Entreprise</label>
+            <input id="company" name="company" type="text" placeholder="(optionnel)">
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <select id="subject" name="subject" required>
+              <option value="">Sélectionnez un sujet</option>
+              <option value="alternance">Proposition d’alternance</option>
+              <option value="stage">Proposition de stage</option>
+              <option value="projet">Projet collaboratif</option>
+              <option value="info">Demande d’information</option>
+              <option value="autre">Autre</option>
+            </select>
+            <small class="error">Choisissez un sujet.</small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Décrivez votre besoin..." required></textarea>
+          <small class="error">Le message est requis.</small>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full"><i class="fa-solid fa-paper-plane"></i> Envoyer</button>
+
+        <p id="formSuccess" class="form-success" role="status" aria-live="polite" hidden>
+          ✅ Merci ! Votre message a bien été simulé comme envoyé (pas de backend).
+        </p>
+      </form>
     </div>
-</section>
+  </section>
 
-<!-- Section CTA -->
-<section class="cta-section">
-    <div class="container">
-        <div class="cta-content">
-            <h2>Prêt à collaborer ?</h2>
-            <p>Téléchargez mon CV pour en savoir plus sur mon parcours et mes compétences</p>
-            <div class="cta-buttons">
-                <a href="#" class="btn btn-primary">
-                    <i class="fas fa-download"></i>
-                    Télécharger mon CV
-                </a>
-                <a href="projets.html" class="btn btn-secondary">
-                    <i class="fas fa-eye"></i>
-                    Voir mes projets
-                </a>
-            </div>
-        </div>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Marie <span class="accent">Dubois</span></h3>
+        <p>Étudiante MIAGE — Développeuse full-stack</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/tonusername" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/tonusername" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:marie.dubois@email.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p class="copy">© 2025 Marie Dubois. Tous droits réservés.</p>
     </div>
-</section>
+  </footer>
 
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-info">
-                <h3>Marie Dubois</h3>
-                <p>Étudiante en MIAGE - Développeuse full-stack</p>
-            </div>
-            <div class="footer-links">
-                <a href="https://github.com/tonusername" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://linkedin.com/in/tonusername" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="mailto:ton.email@email.com">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Marie Dubois. Tous droits réservés.</p>
-        </div>
-    </div>
-</footer>
-
-<script src="js/script.js"></script>
+  <script src="/js/script.js"></script> 
 </body>
 </html>
