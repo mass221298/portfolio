@@ -11,8 +11,12 @@
 </head>
 <body data-page="skills">
   <header class="navbar">
+    <header class="navbar" aria-label="Navigation principale">
     <div class="container nav-container">
-      <a class="logo" href="index.html"><i class="fa-solid fa-code"></i> <span>Massylla<span class="accent">Ndiaye</span></span></a>
+      <a class="logo" href="index.html" aria-label="Accueil">
+  <img src="images/mon-logo.jpg" alt="Logo de [Ndiaye]" class="logo-img">
+  <span>Massylla Ndiaye</span>
+</a>
       <nav class="nav">
         <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
           <span></span><span></span><span></span>
@@ -39,46 +43,58 @@
   <section class="section">
     <div class="container grid-2 gap-xl reveal">
       <!-- Techniques -->
-      <div>
-        <h2 class="section-subtitle"><i class="fa-solid fa-laptop-code"></i> Techniques</h2>
-        <div class="grid-2">
-          <article class="card skill">
-            <h3>Back-end</h3>
-            <ul class="skill-bars">
-              <li><span>Java / Spring Boot</span><div class="bar"><b style="width:85%"></b></div></li>
-              <li><span>PHP / Symfony</span><div class="bar"><b style="width:75%"></b></div></li>
-              <li><span>Python / Django</span><div class="bar"><b style="width:70%"></b></div></li>
-            </ul>
-          </article>
+  <div>
+  <h2 class="section-subtitle"><i class="fa-solid fa-laptop-code"></i> Compétences Techniques</h2>
+  <div class="grid-2">
 
-          <article class="card skill">
-            <h3>Bases de données</h3>
-            <ul class="skill-bars">
-              <li><span>MySQL / PostgreSQL</span><div class="bar"><b style="width:90%"></b></div></li>
-              <li><span>Modélisation (Merise)</span><div class="bar"><b style="width:85%"></b></div></li>
-              <li><span>SQL avancé</span><div class="bar"><b style="width:80%"></b></div></li>
-            </ul>
-          </article>
+    <article class="card skill">
+      <h3>Développement Web & Logiciel</h3>
+      <ul class="skill-bars">
+        <li><span>HTML / CSS / JavaScript / TypeScript</span><div class="bar"><b style="width:90%"></b></div></li>
+        <li><span>Java / Programmation Orientée Objet</span><div class="bar"><b style="width:85%"></b></div></li>
+        <li><span>Python</span><div class="bar"><b style="width:75%"></b></div></li>
+      </ul>
+    </article>
 
-          <article class="card skill">
-            <h3>Front-end</h3>
-            <ul class="skill-bars">
-              <li><span>HTML / CSS</span><div class="bar"><b style="width:95%"></b></div></li>
-              <li><span>JavaScript</span><div class="bar"><b style="width:80%"></b></div></li>
-              <li><span>React</span><div class="bar"><b style="width:65%"></b></div></li>
-            </ul>
-          </article>
+    <article class="card skill">
+      <h3>Bases de Données</h3>
+      <ul class="skill-bars">
+        <li><span>MySQL / PostgreSQL</span><div class="bar"><b style="width:85%"></b></div></li>
+        <li><span>Modélisation (UML / Merise)</span><div class="bar"><b style="width:80%"></b></div></li>
+        <li><span>SQL Avancé / DataGrip</span><div class="bar"><b style="width:75%"></b></div></li>
+      </ul>
+    </article>
 
-          <article class="card skill">
-            <h3>Outils & Méthodes</h3>
-            <ul class="skill-bars">
-              <li><span>Git / GitHub</span><div class="bar"><b style="width:85%"></b></div></li>
-              <li><span>Agile (Scrum)</span><div class="bar"><b style="width:75%"></b></div></li>
-              <li><span>Docker</span><div class="bar"><b style="width:60%"></b></div></li>
-            </ul>
-          </article>
-        </div>
-      </div>
+    <article class="card skill">
+      <h3>Analyse de Données & IA</h3>
+      <ul class="skill-bars">
+        <li><span>R / RStudio</span><div class="bar"><b style="width:80%"></b></div></li>
+        <li><span>Power BI / Excel</span><div class="bar"><b style="width:75%"></b></div></li>
+        <li><span>Machine Learning (Bases)</span><div class="bar"><b style="width:60%"></b></div></li>
+      </ul>
+    </article>
+
+    <article class="card skill">
+      <h3>Outils & Méthodes</h3>
+      <ul class="skill-bars">
+        <li><span>Git / GitHub</span><div class="bar"><b style="width:85%"></b></div></li>
+        <li><span>VS Code / IntelliJ / DataGrip</span><div class="bar"><b style="width:80%"></b></div></li>
+        <li><span>Méthodes Agiles (Scrum)</span><div class="bar"><b style="width:70%"></b></div></li>
+      </ul>
+    </article>
+
+    <article class="card skill">
+      <h3>Design & UX</h3>
+      <ul class="skill-bars">
+        <li><span>Figma / Canva</span><div class="bar"><b style="width:85%"></b></div></li>
+        <li><span>Ergonomie & UX Design</span><div class="bar"><b style="width:70%"></b></div></li>
+        <li><span>Conception d’interfaces</span><div class="bar"><b style="width:65%"></b></div></li>
+      </ul>
+    </article>
+
+  </div>
+</div>
+
 
       <!-- Atout + Parcours -->
       <div>
@@ -128,9 +144,8 @@ Appliquées aux Sciences Humaines et Sociales.</p>
       </div>
       <div class="footer-links">
         <a href="https://github.com/mass221298" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
-        <a href="www.linkedin.com/in/
-massylla-ndiaye-9974a9328" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="mailto:massylandiaye69@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/massylla-ndiaye-9974a9328/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=massylandiaye69@gmail.com"><i class="fa-solid fa-envelope"></i></a>
       </div>
       <p class="copy">© 2025 Massylla Ndiaye. Tous droits réservés.</p>
     </div>

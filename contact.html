@@ -10,9 +10,12 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body data-page="contact">
-  <header class="navbar">
+  <header class="navbar" aria-label="Navigation principale">
     <div class="container nav-container">
-      <a class="logo" href="index.html"><i class="fa-solid fa-code"></i> <span>Massylla<span class="accent">Ndiaye</span></span></a>
+      <a class="logo" href="index.html" aria-label="Accueil">
+  <img src="images/mon-logo.jpg" alt="Logo de [Ndiaye]" class="logo-img">
+  <span>Massylla Ndiaye</span>
+</a>
       <nav class="nav">
         <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
           <span></span><span></span><span></span>
@@ -36,100 +39,65 @@
     </div>
   </section>
 
-  <section class="section">
-    <div class="container grid-2 gap-xl contact-grid reveal">
-      <div>
-        <h2 class="section-subtitle">Travaillons ensemble !</h2>
-        <p class="lead">je suis à la recherche d’un stage obligatoire d’une durée de 8 semaines minimums, nécessaire à la validation de mon année.</p>
+  <section class="section contact-section">
+  <div class="container contact-container reveal">
+    <h2 class="section-subtitle">Travaillons ensemble !</h2>
+    <p class="lead">
+      Je suis à la recherche d’un stage obligatoire d’une durée de 8 semaines minimum, nécessaire à la validation de mon année.
+    </p>
 
-        <div class="contact-cards">
-          <div class="card contact-item">
-            <i class="fa-solid fa-envelope icon"></i>
-            <div><h4>Email</h4><p><a href="mailto:massylandiaye@email.com">massylandiaye69@email.com</a></p>
-            </div>
-          </div>
-          <div class="card contact-item">
-            <i class="fa-solid fa-phone icon"></i>
-            <div><h4>Téléphone</h4><p><a href="tel:+33612345678">+33 6 02 53 88 81</a></p></div>
-          </div>
-          <div class="card contact-item">
-            <i class="fa-solid fa-location-dot icon"></i>
-            <div><h4>Localisation</h4><p>Nancy, France</p></div>
-          </div>
-          <div class="card contact-item">
-            <i class="fa-solid fa-calendar-check icon"></i>
-            <div><h4>Disponibilité</h4><p>la période du 13 Avril au 05 Juin  2026 </p></div>
-          </div>
-        </div>
-
-        <div class="social big">
-          <a class="btn btn-outline" href="https://github.com/mass221298" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
-          <a class="btn btn-outline" href="www.linkedin.com/in/
-massylla-ndiaye-9974a9328" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-          <a class="btn btn-primary" href="#" aria-disabled="true"><i class="fa-solid fa-file-pdf"></i> CV (PDF)</a>
+    <div class="contact-list">
+      <div class="contact-item card">
+        <i class="fa-solid fa-envelope icon"></i>
+        <div>
+          <h4>Email</h4>
+          <p>
+            <a href="mailto:massylandiaye69@gmail.com">massylandiaye69@gmail.com</a>
+          </p>
         </div>
       </div>
 
-      <form class="card form" id="contactForm" novalidate>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="name">Nom complet</label>
-            <input id="name" name="name" type="text" placeholder="Ex. Massylla  Ndiaye" required>
-            <small class="error">Merci d’indiquer votre nom.</small>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" placeholder="prenom.nom@mail.com" required>
-            <small class="error">Email invalide.</small>
-          </div>
+      <div class="contact-item card">
+        <i class="fa-solid fa-phone icon"></i>
+        <div>
+          <h4>Téléphone</h4>
+          <p>
+            <a href="tel:+33602538881">+33 6 02 53 88 81</a>
+          </p>
         </div>
+      </div>
 
-        <div class="form-row">
-          <div class="form-group">
-            <label for="company">Entreprise</label>
-            <input id="company" name="company" type="text" placeholder="(optionnel)">
-          </div>
-          <div class="form-group">
-            <label for="subject">Sujet</label>
-            <select id="subject" name="subject" required>
-              <option value="">Sélectionnez un sujet</option>
-              <option value="alternance">Proposition d’alternance</option>
-              <option value="stage">Proposition de stage</option>
-              <option value="projet">Projet collaboratif</option>
-              <option value="info">Demande d’information</option>
-              <option value="autre">Autre</option>
-            </select>
-            <small class="error">Choisissez un sujet.</small>
-          </div>
+      <div class="contact-item card">
+        <i class="fa-solid fa-location-dot icon"></i>
+        <div>
+          <h4>Localisation</h4>
+          <p>Nancy, France</p>
         </div>
+      </div>
 
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6" placeholder="Décrivez votre besoin..." required></textarea>
-          <small class="error">Le message est requis.</small>
+      <div class="contact-item card">
+        <i class="fa-solid fa-calendar-check icon"></i>
+        <div>
+          <h4>Disponibilité</h4>
+          <p>Du 13 Avril au 05 Juin 2026</p>
         </div>
-
-        <button type="submit" class="btn btn-primary btn-full"><i class="fa-solid fa-paper-plane"></i> Envoyer</button>
-
-        <p id="formSuccess" class="form-success" role="status" aria-live="polite" hidden>
-          ✅ Merci ! Votre message a bien été simulé comme envoyé (pas de backend).
-        </p>
-      </form>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer class="footer">
+
+
+      <footer class="footer">
     <div class="container footer-grid">
       <div>
-        <h3>Marie <span class="accent">Dubois</span></h3>
+        <h3>Massylla <span class="accent">Ndiaye</span></h3>
         <p>Étudiante MIAGE — Recherche de stage en informatique</p>
       </div>
       <div class="footer-links">
         <a href="https://github.com/mass221298" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
-        <a href="www.linkedin.com/in/
-massylla-ndiaye-9974a9328
-" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="mailto:marie.dubois@email.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/massylla-ndiaye-9974a9328/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=massylandiaye69@gmail.com"><i class="fa-solid fa-envelope"></i></a>
       </div>
       <p class="copy">© 2025 Massylla Ndiaye. Tous droits réservés.</p>
     </div>

@@ -10,9 +10,12 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body data-page="projects">
-  <header class="navbar">
+  <header class="navbar" aria-label="Navigation principale">
     <div class="container nav-container">
-      <a class="logo" href="index.html"><i class="fa-solid fa-code"></i> <span>Massylla<span class="accent">Ndiaye</span></span></a>
+      <a class="logo" href="index.html" aria-label="Accueil">
+  <img src="images/mon-logo.jpg" alt="Logo de [Ndiaye]" class="logo-img">
+  <span>Massylla Ndiaye</span>
+</a>
       <nav class="nav">
         <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
           <span></span><span></span><span></span>
@@ -37,8 +40,6 @@
         <button class="chip active" data-filter="all">Tous</button>
         <button class="chip" data-filter="java">Java</button>
         <button class="chip" data-filter="python">Python</button>
-        <button class="chip" data-filter="php">PHP</button>
-        <button class="chip" data-filter="frontend">Front-end</button>
       </div>
     </div>
   </section>
@@ -67,7 +68,7 @@
       </article>
 
       <!-- Projet 2 -->
-      <article class="card project" data-tags="python data viz" id="analyse">
+      <article class="card project" data-tags="JS" id="analyse">
         <header class="project-header">
           <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
           <div>
@@ -88,25 +89,28 @@
       </article>
 
       <!-- Projet 3 -->
-      <article class="card project" data-tags="php sql frontend" id="ecommerce">
-        <header class="project-header">
-          <div class="project-icon"><i class="fa-solid fa-cart-shopping"></i></div>
-          <div>
-            <h3>Plateforme E-commerce</h3>
-            <p class="muted">Projet cours (2 mois) • PHP / MySQL / Stripe</p>
-          </div>
-        </header>
-        <ul class="list">
-          <li>Catalogue + recherche • Panier persistant</li>
-          <li>Paiement Stripe • Facturation</li>
-          <li>Back-office : gestion produits & stocks</li>
-        </ul>
-        <div class="tags"><span>PHP</span><span>MySQL</span><span>JS</span><span>Stripe</span></div>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="https://github.com/tonusername/ecommerce" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> Code</a>
-          <a class="btn btn-outline" href="#"><i class="fa-solid fa-store"></i> Site</a>
-        </div>
-      </article>
+     <article class="card project" data-tags="Python SQLite" id="parking-manager">
+  <header class="project-header">
+    <div class="project-icon"><i class="fa-solid fa-car"></i></div>
+    <div>
+      <h3>Parking Manager</h3>
+      <p class="muted">Projet personnel • Python / Flask / SQLite</p>
+    </div>
+  </header>
+  <ul class="list">
+    <li>Gestion des parkings, tickets et tarifs horaires</li>
+    <li>Tableau de bord (revenus, occupation en temps réel)</li>
+    <li>Authentification admin + API REST JSON</li>
+  </ul>
+  <div class="tags">
+    <span>Python</span><span>Flask</span><span>SQLite</span><span>Bootstrap</span>
+  </div>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="https://github.com/mass221298/parking-manager" target="_blank" rel="noreferrer">
+      <i class="fa-brands fa-github"></i> Code
+    </a>
+  </div>
+</article>
     </div>
   </section>
 
@@ -117,9 +121,9 @@
         <p>Étudiante MIAGE — Recherche de stage en informatique</p>
       </div>
       <div class="footer-links">
-        <a href="https://github.com/tonusername" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
-        <a href="https://linkedin.com/in/tonusername" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="mailto:marie.dubois@email.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/mass221298" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/massylla-ndiaye-9974a9328/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=massylandiaye69@gmail.com"><i class="fa-solid fa-envelope"></i></a>
       </div>
       <p class="copy">© 2025 Massylla Ndiaye. Tous droits réservés.</p>
     </div>
